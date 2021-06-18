@@ -1,0 +1,119 @@
+.content-main{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px 0 80px;
+    margin-bottom: 50px;
+}
+
+.content-item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 2.5;
+    margin-right: 30px;
+}
+.list-products-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.group-atribute-top{
+    display: flex;
+    flex-direction: row;
+    flex-direction: space-between;
+    padding-bottom: 10px;
+}
+
+.group-atribute-top .atribute-top{
+    margin-left: 40px;
+}
+
+.atribute-top{
+    font-size: 1.1rem;
+    color: var(--strong-atributes);
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 700;
+}
+.top-shoppiing-cart{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--primary-border);
+    padding-right: 15px;
+    margin-bottom: 10px;
+}
+
+.sales-note{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px 30px 10px 30px;
+
+    border: 1px solid var(--primary-border);
+}
+
+
+.sales-note-top{
+    padding-bottom: 30px;
+}
+.sales-note-top .title-top{
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: var(--strong-atributes);
+}
+
+
+.content-sale-note{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-one, .content-two, .content-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.atribute-information-delivery{
+    font-size: 0.8rem;
+    color: var(--input-color);
+    
+}
+
+.atribute-carrinho{
+    font-size: 1.1rem;
+    color: var(--strong-properties);
+    font-weight: 500;
+}
+
+.atribute-value-subtotal{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--strong-atributes);
+}
+
+.atribute-value-total{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: var(--amount-product-strong);
+}
+.button-default{
+    background-color: var(--primary-color);
+    color: var(--empty-space);
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: "Roboto", Arial, sans-serif;
+    border: none;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.button-default:hover{
+    background-color: var(--primary-color-hover);
+}

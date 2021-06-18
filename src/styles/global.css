@@ -1,0 +1,83 @@
+:root{
+    --primary-color: rgb(174, 65, 207);
+    --primary-color-hover: rgb(142, 33, 175);
+    --empty-space: rgb(255, 255, 255);
+    --link-category: rgb(247, 244, 244);
+    --primary-border: rgb(212, 205, 205);
+    --placeholder-color: rgb(153, 147, 147);
+    --input-color: rgb(138, 134, 134);
+    --strong-properties: rgb(68, 67, 67);
+    --border-empty-space: rgb(238, 235, 235);
+    --amount-product: rgb(194, 73, 73);
+    --amount-product-strong: rgb(167, 26, 26);
+    --strong-atributes: rgb(39, 38, 38);
+
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+body{
+    color: #FFF;
+    background: var(--empty-space);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body, input, select, textarea, button{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+input, textarea{
+    padding-left: 15px;
+}
+
+textarea::placeholder, input::placeholder{
+    color: var(--placeholder-color);
+    font-weight: 700;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 1px solid var(--primary-border);
+    outline: 0;
+} 
+
+
+.container-general{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-general .container-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*
+Div-Pai   = 1128px ambas de largura
+Div-Filha = 264px
+
+
+então eu divido 1128/264 = 0,23404255319149
+
+Agora anda duas casas decimais, ou 0,23404255319149 * 100
+
+23, 404255319149%;
+*/

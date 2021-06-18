@@ -1,0 +1,162 @@
+
+.content-main{
+    display: flex;
+    flex: 1.5;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.asterisk-required{
+    color: var(--amount-product-strong);
+    margin-left: 10px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.container-content-input{
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+    border: 6px solid var(--primary-border);
+}
+
+.title-content-top{
+    padding-bottom: 5px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid var(--primary-border);;
+}
+
+.title-top{
+    font-size: 1.8rem;
+    color: var(--strong-atributes);
+    
+}
+.group-label-input{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.input-default{
+    height: 35px;
+    color: var(--strong-properties);
+    border: 1px solid var(--primary-border);
+    
+}
+
+.label-up-input, .value-property{
+    font-size: 1rem;
+    color: var(--strong-properties);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.group-input{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid var(--primary-color); */
+}
+
+
+.space{
+    width: 10px;
+}
+
+
+.andress-delivery-input{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.area-textarea{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.textarea-default{
+    height: 80px;
+    border: 1px solid var(--primary-border);
+    resize: none;
+    margin-bottom: 30px;
+    padding-top: 7px;
+    color: var(--strong-properties);
+    font-size: 0.9rem;
+}
+
+
+/*Sale Note*/
+.sales-note-complet{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 30px;
+    padding: 10px 30px 10px 30px; 
+    border: 6px solid var(--primary-border);
+
+    height: 70vh;
+}
+
+.title-note-top{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    /* border: 1px solid var(--amount-product); */
+}
+.title-note-top .title-note{
+    font-size: 1.8rem;
+    color: var(--strong-atributes);
+}
+.group-fields, .group-products, .group-fields-delivery, .group-fields-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-bottom: 30px;
+}
+
+.span-atribute-top{
+    font-size: 1.2rem;
+    color: var(--strong-atributes);
+    font-weight: 500;
+}
+
+.span-atribute-product{
+    max-width: 200px;
+}
+
+.span-atribute{
+    font-size: 1rem;
+    color: var(--strong-atributes);
+    font-weight: 500;
+}
+.span-atribute-total{
+    font-size: 1.2rem;
+    color: var(--strong-atributes);
+    font-weight: 500;
+}
+
+.span-value-delivery{
+    font-size: 0.9rem;
+    color: var(--input-color);
+}
+
+.span-value-subtotal{
+    font-size: 1rem;
+    color: var(--amount-product-strong);
+    font-weight: 500;
+}
+.span-value-total{
+    font-size: 1.2rem;
+    color: var(--amount-product-strong);
+    font-weight: 500;
+}
+
+
+
+.span-atribute-product, .span-value-product{
+    font-size: 1rem;
+    color: var(--input-color);
+}
