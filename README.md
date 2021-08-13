@@ -1,60 +1,54 @@
-# Plataforma
+# Storejs-Web
 
 ## A little about the project
-
-This project was developed during an immersion promoted by the company Code Miner 42.  [Code Miner 42](https://www.codeminer42.com/) .
-The immersion had as objective that undergraduate students in the technology area had an experience as close as possible to the reality
-of the software development market. This immersion, in particular, being the first one, served as a "test", and went through some study processes,
-to verify the best approach to adopt, which mechanisms and so on.
-It started with practical challenges, one of which is here on my github Access the link to see one of the challenges I submitted 
-[Access the link to see one of the challenges I submitted](https://github.com/jardessonribeiroTI/Codeminer42-Desafio2). Later, the challenge was divided into pairs, 
-and each pair was responsible for developing an application, and my pair decided to develop a course platform.
-Due to some problems with git, this repository will be the complete project, but if you want to see the original repositories with Pull Requests and Code Reviews
-[go to this link](https://github.com/jardessonribeiroTI/plataforma/).
+This project was developed with the main focus on learning and practicing with React js, and it was a way to improve my knowledge in frontend. 
+It was inspired by another layout, and would serve as a personal project. Matter of approaching products such as makeup were for a specific purpose.
 
 ## Project objectives
 
-Create a platform for the student to register or purchase the course, and be able to access their classes. In this way, the platform had a login system, 
-for each student to have data referring to their learning process, such as completed classes, progress, and each part of the course was divided into modules.
+It had the objective of learning, practicing and having a basis for a possible software that could be converted into a business
 
 ## Technologies used
-
-The project was built entirely using JavaScript language. In the backend we use Node [Site Node](https://nodejs.org/en/), along with the framework
-Express [Site Express](https://expressjs.com/pt-br/), TypeScript [Site TypeScript](https://www.typescriptlang.org/) 
-and the TypeORM [Site TypeORM](https://typeorm.io/#/). We also use The relational database, Postgrees [Site](https://www.postgresql.org/)
-, however, for convenience and for having used it before, I used Postgrees inside a Docker container [Site Docker ](https://www.docker.com/) 
-via a docker image taken directly from the DockerHub [Docker Hub Site](https://hub.docker.com/_/postgres). 
-In the frontend we use React js [Site React Js](https://pt-br.reactjs.org/) together with the framework Nextjs [Site Nextjs](https://vercel.com/docs/next.js/overview) .
-
-
+This project was built basically with React js [Site React Js](https://pt-br.reactjs.org/)
 
 ## The project
-### Result of the project's frontend in its functioning
-1. #### **Login**
-![login](https://user-images.githubusercontent.com/45296422/127885793-327d68ac-1810-4a44-9d91-67e50ede46ed.png)
+### Result of the project's frontend in its
+1. #### **Home**
+![home](https://user-images.githubusercontent.com/45296422/129360142-ad49539b-84f4-43c1-9b49-e94b38164fff.png)
 
 ##### Description
-The login works with the email that the student is properly registered and with his default password.
+Home already starts with a listing of the featured products.
 
-2. #### **Redefine Password**
-![redefine](https://user-images.githubusercontent.com/45296422/127885990-00260ae2-2cd3-49c2-95fd-cec5c7fd9d61.png)
-
-##### Description
-Here the user enters his email to receive a verification email that will redirect to change the forgotten password.
-
-3. #### **Enter the new password**
-![reset](https://user-images.githubusercontent.com/45296422/127886252-b0105bb3-b35b-4e57-9a80-cc020f6fe8d8.png)
+2. #### **Specific Product**
+![product-specific](https://user-images.githubusercontent.com/45296422/129360406-7ff33ab4-dc52-4f4d-8aae-5ff58e57af21.png)
 
 ##### Description
-Here the user will inform the new password and confirm.
+The Specific Product page shows the product the customer clicked on and redirected to one that shows the product in more detail, 
+such as more photos, prices and description.
 
-4. #### **Lessons page**
-![lesson](https://user-images.githubusercontent.com/45296422/127886694-4d463b76-ba86-43bc-9c19-1b790b4f1d96.png)
+3. #### **Specific Product -> more details**
+![more-details](https://user-images.githubusercontent.com/45296422/129363428-0ff5b2c7-673a-4768-853a-b6632e8eea1f.png)
 
 ##### Description
-Once logged in, the user is redirected to the page they will actually see as their classes. On the left is your progress and your 
-percentage of classes attended, further down are the course modules, and each class, when attended, is marked with a green check. 
-In the middle is the class play, a little above, the previous and next class buttons, the username and exit.
+A small area with more details, such as a category the product belongs to.
+
+4. #### **Related products**
+![products-relateds](https://user-images.githubusercontent.com/45296422/129360993-af2ed35e-786c-4651-8f26-8fc9e3fa3780.png)
+
+##### Description
+Still on the same page, a little further down, there is a list of products related to the product that was clicked.
+
+5. #### **Shopping cart**
+![cart-shoppings](https://user-images.githubusercontent.com/45296422/129361211-77ed8561-baa7-4250-bc59-93f79e841353.png)
+
+##### Description
+This is the cart page, where the products that have been activated in the cart are shown, with a price, a note on the side to show the purchase amount and the possibility to remove the product from the cart.
+
+6. #### **Purchase page**
+![Purchase](https://user-images.githubusercontent.com/45296422/129363148-fad9e64b-4138-4cf9-a9f3-0a1735e5edec.png)
+
+##### Description
+This page is responsible for making the purchase, where the purchase data, delivery data, as well as on the form are, in fact, requested.
 
 ## How to run the project
 
@@ -64,41 +58,20 @@ It is necessary that you have on your machine the technologies listed above, if 
 To download the project, do the following command on your terminal
 
 1. Run
-<br/>$ mypasta/git clone https://github.com/jardessonribeiroTI/plataforma-imersao-codeminer42.git
+<br/>$ mypasta/git clone https://github.com/jardessonribeiroTI/storejs-web.git
 
 2. Next
-<br/>$ myfolder/ cd platform-immersion-codeminer42
+<br/>$ myfolder/ cd storejs-web
 
-#### Step to backend
+3. Next
+To download to dependencies run
+<br/>$ myfolder/storejs-web/ yarn install
 
-3. Next you will enter each folder to download the dependencies of each one
-<br/>$ myfolder/platform-immersion-codeminer42/ cd backend
+4. Now run
+<br/>$ myfolder/storejs-web/ yarn start
 
-4. Next execute the command
-<br/>$ mypasta/plataforma-imersao-codeminer42/backend/ yarn install
-
-5. Before running, it is necessary to run the project's migrations, for that run
-<br/>$ mypasta/plataforma-imersao-codeminer42/backend/yarn typeorm migration:run
-
-6. Finally, run the command
-<br/>$ mypasta/plataforma-imersao-codeminer42/backend/ yarn start
-
-#### Step to frontend
-
-3. Next you will enter each folder to download the dependencies of each one in Backend
-<br/>$ myfolder/platform-immersion-codeminer42/ cd frontend
-
-4. Next execute the command
-<br/>$ mypasta/plataforma-imersao-codeminer42/backend/ yarn install
-
-5. Finally, run the command
-<br/>$ mypasta/plataforma-imersao-codeminer42/backend/ yarn run dev
 
 ## Author's final note about the project.
-
-This project had a short time and was developed during the academic term of the university, and could not have a greater focus on its development.
-However, he fulfilled his duty to show us and make experience about software development and have an experience of "real life of a programmer", 
-deadlines, PR's, code review, and meetings. There are many things to improve on this project and, of course, complete it with all the necessary
-functionality. But it has already served a lot for my knowledge and improvement as a programmer and even as a person.
+This project helped me a lot to develop my weakness, which was the frontend, it helped me to understand some concepts, some practices and, moreover, think about the business rules even though I was in the frontend.
 
 Author: Járdesson Ribeiro.
